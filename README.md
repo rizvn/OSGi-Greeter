@@ -3,14 +3,9 @@ A demonstration of OSGI modules, using apache felix
 
 ## To Build 
       
-      cd Greeter
-      mvn install 
-      
-      cd ../EnglishDict
-      mvn package 
-      
-      cd ../FrenchDict
-      mvn package 
+      mvn -f Greeter/pom.xml install 
+      mvn -f EnglishDict/pom.xml package 
+      mvn -f FrenchDict/pom.xml package 
       
       
 ## Download an osgi distribution
