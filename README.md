@@ -22,7 +22,7 @@ At the time of writing the felix framework version was 5.4.0
     java -jar bin/felix.jar
 
 
-## Deply in Embedded Felix app
-Copy the bundles to EmbeddedFelix/bundle. run Starter.main method from within Embedded felix project
+## Deploy in Embedded Felix app
+Copy the bundles to EmbeddedFelix/bundle, then run Starter.main method from within Embedded felix project
 
 
