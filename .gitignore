@@ -1,4 +1,5 @@
 *.iml
+felix-cache
 .idea/
 target/
 .DS_Store
