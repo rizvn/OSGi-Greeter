@@ -62,6 +62,6 @@ public class Activator implements BundleActivator {
     System.out.println("Greeter Stopped");
 
     //say goodbye
-    dicts.forEach(Dict::sayGoodbye);
+    dicts.forEach(dict -> System.out.println(dict.sayGoodbye()));
   }
 }
